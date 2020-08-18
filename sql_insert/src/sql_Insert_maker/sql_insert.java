@@ -77,7 +77,7 @@ public class sql_insert {
 				query+=",";
 			try {
 				if(s.contains("'"))
-				s=s.replace("'","''");
+				s=s.replaceAll("'","''");
 				query+=s;
 			}catch (Exception E) {query+="'"+s+"'";}
 			start = true;
