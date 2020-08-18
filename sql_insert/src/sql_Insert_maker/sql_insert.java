@@ -20,7 +20,7 @@ public class sql_insert {
 
 	public static void main(String[] args) throws IOException {
 			
-		  String name = "C:\\Users\\murali-9880\\Desktop\\sql.txt";
+		  String name = "D:\\sql.txt";
 		  @SuppressWarnings("resource")
 		Scanner scan = new Scanner (System.in);
 		  String st; 
@@ -51,7 +51,7 @@ public class sql_insert {
 	
 	static void writeIntoFile(String input) {
 		 try{    
-			  FileWriter fw = new FileWriter(new File("C:\\Users\\murali-9880\\Desktop\\SQL_Writer.sql"), true);
+			  FileWriter fw = new FileWriter(new File("D:\\SQL_Writer.sql"), true);
 			  BufferedWriter br1 = new BufferedWriter(fw);
 			  PrintWriter pr = new PrintWriter(br1);
 			  pr.println(input);
