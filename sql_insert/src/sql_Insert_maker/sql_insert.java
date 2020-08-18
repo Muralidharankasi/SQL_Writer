@@ -13,7 +13,9 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 import com.sun.javafx.collections.MappingChange.Map;
-
+/*
+		Author ILARUM SQL_Writer.sql generator
+*/
 public class sql_insert {
 
 	public static void main(String[] args) throws IOException {
