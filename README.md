@@ -8,9 +8,9 @@ The beauty of the tool is we can convert data stored in notepad  into SQL Query.
 Points to keep in mind 
                       1. Keep at-least 2 or more space between each columns.
                       2. Keep each row in separate line.
-                      3. Keep the data file in desktop and name it as sql.txt
+                      3. Keep the data file in D drive and name it as sql.txt
                       4. Before storing SQL queries review it, until the query is okay.
                       5. Enter 1 in console prompt when you are okay to Generate SQL file, else give some random Integer value to review the SQL query again.
                       
-NOTE: Generated SQL queries will be stored in SQL_Writer.sql file
+NOTE: Generated SQL queries will be stored in SQL_Writer.sql file in D drive. 
                       
