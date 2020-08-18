@@ -49,7 +49,7 @@ public class sql_insert {
 	
 	static void writeIntoFile(String input) {
 		 try{    
-			  FileWriter fw = new FileWriter(new File("C:\\Users\\murali-9880\\Desktop\\dlp_dump_detail.sql"), true);
+			  FileWriter fw = new FileWriter(new File("C:\\Users\\murali-9880\\Desktop\\SQL_Writer.sql"), true);
 			  BufferedWriter br1 = new BufferedWriter(fw);
 			  PrintWriter pr = new PrintWriter(br1);
 			  pr.println(input);
