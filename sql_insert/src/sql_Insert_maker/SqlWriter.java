@@ -78,6 +78,7 @@ public class SqlWriter {
 			try {
 				if(s.contains("'"))
 				s=s.replaceAll("'","''");
+				Integer.parseInt(s);
 				query+=s;
 			}catch (Exception E) {query+="'"+s+"'";}
 			start = true;
