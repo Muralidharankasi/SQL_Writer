@@ -68,8 +68,8 @@ public class SqlWriter {
 	}
 	
 	private static String makeQuery(String st, String tableName) {
-		st = st.replaceAll("\\s{2,}", " ");
-		String array[]=st.split("	");
+		st = st.replaceAll("\\s{2,}", "   ");
+		String array[]=st.split("   ");
 		String query=  "INSERT INTO "+tableName+" VALUES(";
 		boolean start = false;
 		for(String s:array){
